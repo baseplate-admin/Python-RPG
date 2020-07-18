@@ -12,7 +12,7 @@ def gold_room():
         dead("Dude, This wont work!!")
     if how_much < 50:
         print("You're not greedy and you win!!")
-        time.sleep(2)
+        time.sleep(10)
         exit(0)
     else:
         dead("You're greedy.")
@@ -79,7 +79,7 @@ def start():
 
 def dead(ded_msg):
     print(ded_msg + "Good Job!!")
-    time.sleep(2)
+    time.sleep(10)
     exit(0)
 
 
